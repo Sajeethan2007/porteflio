@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+		footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sajeethan Shanmuganathan</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/8/86/Paris_Saint-Germain_Logo.svg/1024px-Paris_Saint-Germain_Logo.svg.png" alt="Logo" width="100">
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="profil.html">Profil</a>
+        <a href="cv.html">CV</a>
+        <a href="formations.html">Formations</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>CV</h2>
+        <p>Téléchargez mon CV <a href="file:///C:/Users/sajeethanshanmuganat/Documents/travail%20electronique/CV_2024-01-06_Sajeethan_Shanmuganathan.pdf" target="_blank">ici</a>.</p>
+    </section>
+	    <footer>
+        <p>&copy; Sajeethan Shanmuganathan - <span id="currentYear"></span></p>
+    </footer>
+    <script>
+        document.getElementById("currentYear").innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>
